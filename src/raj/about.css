@@ -1,0 +1,137 @@
+.about-us {
+  /* padding: 40px 20px; */
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-us-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.about-us-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: cover;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  opacity: 0.8;
+}
+
+.button-container {
+  position: relative;
+  /* z-index: 1; */
+  text-align: center;
+  padding-bottom: 0px;
+  /* margin-left: 45%; */
+}
+
+.button {
+  margin: 10px;
+  /* margin-bottom: 40%; */
+  padding: 10px 20px;
+  background-color: rgb(231, 215, 215);
+  color: #e32d2d;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 35px;
+}
+
+.button:hover {
+  background-color: rgb(235, 181, 181);
+}
+
+.about-us-content {
+  margin-top: 40px;
+}
+
+.about-us-content section {
+  margin-bottom: 30px;
+}
+
+.about-us-content h2 {
+  font-size: 1.8em;
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.about-us-content p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.about-us-content a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.about-us-content a:hover {
+  text-decoration: underline;
+}
+
+.maintext {
+  display: flex;
+  width: 100%;
+  margin-bottom: -300px;
+}
+
+.text {
+  font-family: "Arial", sans-serif;
+  width: 60%;
+  font-size: 20px;
+  color: #333333;
+  margin: 10px;
+  margin-top: 45px;
+  align-items: start;
+}
+
+.text1 {
+  font-family: "Arial", sans-serif;
+  color: black;
+  width: 30%;
+  padding: 40px;
+  padding-bottom: 30px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.text1 p {
+  margin: 0;
+}
+
+.p1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.p2 {
+  font-size: 45px;
+
+  font-weight: bold;
+}
+
+.p3 {
+  font-size: 45px;
+
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
